@@ -14259,14 +14259,14 @@
 			)
 		)
 	)
-	(gr_text "Stiffener outlines on {dblquote}Stiffener{dblquote} Layer\nTotal 3 Shapes: 1 Connector stiffener and 2 oval stiffeners"
+	(gr_text "Stiffener outlines on {dblquote}Stiffener{dblquote} Layer\nTotal 3 Shapes: 1 Connector stiffener and 2 oval stiffeners\nTotal thickness at gold fingers: 0.3 mm ±0.05 mm"
 		(at 204.4 113.6 0)
 		(layer "Cmts.User")
 		(uuid "4cebc7fa-7b8c-4a3f-b7a4-f0ca922b2912")
 		(effects
 			(font
 				(size 4 4)
-				(thickness 0.15)
+				(thickness 0.3)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -15681,7 +15681,7 @@
 				)
 				(knockout no)
 			)
-			(table_cell "0.3mm ±0.05 mm"
+			(table_cell "0.10 mm"
 				(start 273.9 169.948344)
 				(end 299.006785 174.145732)
 				(margins 1.0025 1.0025 1.0025 1.0025)
