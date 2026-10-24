@@ -8348,6 +8348,57 @@
 		(uuid "89e20a9b-582d-4e49-9500-7452b336ea7c")
 	)
 	(gr_line
+		(start 145.5 100.5)
+		(end 148.5 100.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "fbc6814b-bcce-4be5-b5bd-b641bd61ae6f")
+	)
+	(gr_line
+		(start 147 96)
+		(end 147 103)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "f02265ac-cb77-4545-a2dd-109796cdec0e")
+	)
+	(gr_line
+		(start 147 103)
+		(end 145.5 100.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "767347f3-873e-4690-b284-a1d556627731")
+	)
+	(gr_circle
+		(center 147 109)
+		(end 150.5 106)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "29ff4e9d-dc6a-4969-bbc2-dd6ee8391b78")
+	)
+	(gr_line
+		(start 148.5 100.5)
+		(end 147 103)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "9ccce69d-4713-4b43-ba8e-d0aa4ae3176d")
+	)
+	(gr_line
 		(start 20.292 215.569)
 		(end 20.292 224.909)
 		(stroke
@@ -14257,6 +14308,18 @@
 					(xy 138.73427 142.196732) (xy 138.757988 142.29805)
 				)
 			)
+		)
+	)
+	(gr_text "Place 2D barcode here"
+		(at 148.5 96 90)
+		(layer "Cmts.User")
+		(uuid "3463f03c-9925-416d-9136-dfb05e1388df")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "Stiffener outlines on {dblquote}Stiffener{dblquote} Layer\nTotal 3 Shapes: 1 Connector stiffener and 2 oval stiffeners\nTotal thickness at gold fingers: 0.3 mm ±0.05 mm"
@@ -500782,6 +500845,38 @@
 				(xy 25.029476 106.83269) (xy 25.151209 106.795764) (xy 25.160609 106.793895) (xy 25.304366 106.779736)
 				(xy 25.309169 106.7795) (xy 43.274831 106.7795)
 			)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "543cef0e-4aeb-44bd-a654-2d7e109cd670")
+		(members
+			(member "9ccce69d-4713-4b43-ba8e-d0aa4ae3176d" end)
+			(member "f02265ac-cb77-4545-a2dd-109796cdec0e" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "69b8ac24-30dd-4c12-a39a-0c438e6c4871")
+		(members
+			(member "767347f3-873e-4690-b284-a1d556627731" start)
+			(member "f02265ac-cb77-4545-a2dd-109796cdec0e" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "aad9569c-661a-4dcf-bb01-e61c06e360be")
+		(members
+			(member "fbc6814b-bcce-4be5-b5bd-b641bd61ae6f" start)
+			(member "767347f3-873e-4690-b284-a1d556627731" end)
+		)
+	)
+	(constraint
+		(type coincident)
+		(uuid "f13fa430-54ca-4fc3-9662-255db1ed92f9")
+		(members
+			(member "9ccce69d-4713-4b43-ba8e-d0aa4ae3176d" start)
+			(member "fbc6814b-bcce-4be5-b5bd-b641bd61ae6f" end)
 		)
 	)
 	(embedded_fonts no)
