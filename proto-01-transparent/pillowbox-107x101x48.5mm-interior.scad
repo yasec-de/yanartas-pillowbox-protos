@@ -1343,5 +1343,5 @@ module payload() {
 }
 
 color("SkyBlue") main_space();
-color("Orchid") end_spaces();
+%color("Orchid") end_spaces();
 %payload();  // preview only
