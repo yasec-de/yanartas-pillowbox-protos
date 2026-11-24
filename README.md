@@ -18,6 +18,18 @@ The prototype is designed to be produced using the transparent flexible substrat
 [JLCPCB](https://jlcpcb.com). The traces are intentionally laid out without a ground plane and using thin traces with a
 very wide spacing so that the finished mesh stays transparent.
 
+License
+-------
+
+© 2026 Dr.-Ing. Jan Sebastian 'jaseg' Götte
+
+This project is licensed [CERN-OHL-S v2](https://ohwr.org/cern_ohl_s_v2.txt).
+
+LLM/AI Policy
+-------------
+
+This project does not accept LLM-generated contributions.
+
 ## Funding
 
 Part of this project is funded by the nlnet [NGI0 Commons Fund](https://nlnet.nl/commonsfund/) as part of the [Yanartas
